@@ -24,7 +24,7 @@ public class QueueLL {
         }
         public void display(){
             Node temp = head;
-            System.out.print("Queue Element are : ");
+            System.out.print("Queue Elements are : ");
             while(temp != null){
                 System.out.print(temp.data + " ");
                 temp=temp.next;
