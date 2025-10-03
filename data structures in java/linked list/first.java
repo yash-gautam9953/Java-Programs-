@@ -48,7 +48,7 @@ public class first {
                 insertstart(data);
                 return;
             }else if(idx<0 || idx > size){
-                System.out.println("Wrong idx");
+                System.out.println("Wrong index");
                 return;
             }
             for(int i=0;i<idx-1;i++){
@@ -62,7 +62,7 @@ public class first {
             node temp=head;
             int i=0;
             if(idx<0 || idx >= size){
-                System.out.println("Wrong idx");
+                System.out.println("Wrong index");
                 return;
             }
             while(i != idx){
@@ -77,7 +77,7 @@ public class first {
                 head =head.next;
                 return;
             }else if(idx<0 || idx >= size){
-                System.out.println("Wrong idx");
+                System.out.println("Wrong index");
                 return;
             }
             node temp =head;
