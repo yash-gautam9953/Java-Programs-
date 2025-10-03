@@ -48,7 +48,7 @@ public class first {
                 insertstart(data);
                 return;
             }else if(idx<0 || idx > size){
-                System.out.println("Wrong index yash");
+                System.out.println("Wrong index");
                 return;
             }
             for(int i=0;i<idx-1;i++){
@@ -103,5 +103,6 @@ public class first {
    }
 
 }
+
 
 
